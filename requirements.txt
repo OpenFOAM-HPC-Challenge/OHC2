@@ -1,0 +1,23 @@
+# Analysis environment for the OHC-2 notebooks (developed against Python 3.12).
+# Versions are the ones the notebooks were last run with; loosen if needed.
+
+# data handling and plotting
+pandas==2.3.1
+numpy==1.26.4
+seaborn==0.13.2
+matplotlib==3.10.3
+statsmodels==0.14.6      # lowess fits used by seaborn's lmplot
+
+# reading the .xlsm submissions
+openpyxl==3.1.5
+
+# Pareto fronts in the time-vs-energy analysis
+paretoset==1.2.5
+
+# notebook <-> script pairing
+jupytext==1.17.3
+
+# Interactive.ipynb only
+ipywidgets==8.1.7
+ipympl==0.9.7
+mplcursors==0.6
