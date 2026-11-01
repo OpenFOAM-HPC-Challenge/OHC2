@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+
+# virtual environments
+.venv/
+venv/
+
+# notebook scratch state
+.ipynb_checkpoints/
+
+# LibreOffice/Excel lock files left next to the submissions
+.~lock.*#
+~$*
+
+# generated figures - regenerate by running the notebooks
+figures_hwtrack/
+figures_swtrack/

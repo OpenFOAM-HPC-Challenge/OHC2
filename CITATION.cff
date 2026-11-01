@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+title: "2nd OpenFOAM HPC Challenge (OHC-2)"
+version: 1.0.0
+license: "MIT"
+type: dataset
+abstract: "This repository contains the data, scripts and notebooks that were used to analyze the results of the 2nd OpenFOAM HPC Challenge (OHC-2), held July 1-2, 2026 in Guimarães, Portugal as part of the 21st OpenFOAM Workshop."
+message: "If you use this software, please cite it as below."
+authors:
+  - given-names: Sergey
+    family-names: Lesnik
+    affiliation: Wikki GmbH
+    orcid: "https://orcid.org/0009-0007-5703-4438"
+  - given-names: Gregor
+    family-names: Olenik
+    affiliation: Technical University Munich
+    orcid: "https://orcid.org/0000-0002-0128-3933"
+  - given-names: Mark
+    family-names: Wasserman
+    affiliation: Nvidia
+    orcid: "https://orcid.org/0009-0002-7327-0872"
+keywords:
+  - openfoam
+  - high performance computing
