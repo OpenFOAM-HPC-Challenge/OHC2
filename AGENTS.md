@@ -5,9 +5,7 @@ a citable dataset, so reproducibility matters more than elegance.
 
 ## Environment
 
-Use **Python 3.12** and the pinned `requirements.txt`. Python 3.14 with unpinned
-current packages also works (HWTrack, SWTrack and Overview verified); the pins
-themselves do not install on 3.14.
+Use **Python 3.12** and the pinned `requirements.txt`.
 
 ```bash
 uv venv --python 3.12 .venv && uv pip install -r requirements.txt
