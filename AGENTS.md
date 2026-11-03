@@ -5,9 +5,7 @@ a citable dataset, so reproducibility matters more than elegance.
 
 ## Environment
 
-Use **Python 3.12** and the pinned `requirements.txt`. Newer interpreters fail in
-matplotlib's deepcopy path with `RecursionError`, which looks like a bug in the
-notebooks but is not.
+Use **Python 3.12** and the pinned `requirements.txt`.
 
 ```bash
 uv venv --python 3.12 .venv && uv pip install -r requirements.txt
@@ -37,8 +35,8 @@ df = dfs[dfs["Edition"] == "OHC2"]
 
 Two traps, both of which produce wrong results rather than errors:
 
-- IDs are **not unique across editions** — `10` and `15` exist in both OHC-1 and
-  OHC-2 and refer to different people. Filter by `Edition` before grouping on them.
+- IDs are **reused across editions** — `01`, `04`, `06`, `07`, `10` and `15`
+  exist in both OHC-1 and OHC-2. Filter by `Edition` before grouping on them.
 - The spreadsheet parser yields zero-padded strings (`"06"`), but `pd.read_json`
   turns them back into integers (`6`). Since
   `read_submissions_all_editions()` concatenates JSON-loaded OHC-1 rows with
@@ -84,8 +82,8 @@ is the source of truth**. Edit either side, then `jupytext --sync <name>.py`
 before committing so the two cannot drift.
 
 When committing a populated `.ipynb`, re-run it top to bottom first. Do not commit
-notebooks containing error tracebacks or out-of-order execution counts — several
-already do, and they are indistinguishable from genuine analysis failures.
+notebooks containing error tracebacks or out-of-order execution counts — they are
+indistinguishable from genuine analysis failures.
 
 ## Figures
 
