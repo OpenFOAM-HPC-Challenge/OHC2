@@ -23,7 +23,6 @@ import os
 import OHCParser as op
 import datetime
 import traceback
-from scipy.optimize import curve_fit
 from matplotlib.ticker import FormatStrFormatter
 import matplotlib
 from matplotlib import pyplot as plt

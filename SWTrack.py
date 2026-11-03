@@ -23,7 +23,6 @@ import os
 import OHCParser as op
 import datetime
 import traceback
-from scipy.optimize import curve_fit
 import pathlib
 import matplotlib.pyplot as plt
 from matplotlib.ticker import FormatStrFormatter, MaxNLocator
