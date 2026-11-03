@@ -44,7 +44,7 @@ The results of all OHC rounds are also collected in [OHC-DATA](https://github.co
 
 - If you're interested in the main conclusions and analysis presented in the workshop, please see [OHC-2_HW-track.pdf](OHC-2_HW-track.pdf) and [OHC-2_SW-track.pdf](OHC-2_SW-track.pdf), for the hardware and software tracks, respectively.
 
-- If you would like to dive deeper into the data analysis that was done as part of the workshop, please see the individual Jupyter notebooks in the main folder (best viewed from within VS code). The notebooks are known to work with python 3.12. Install the environment with `pip install -r requirements.txt` and run the notebooks from the repository root.
+- If you would like to dive deeper into the data analysis that was done as part of the workshop, please see the individual Jupyter notebooks in the main folder (best viewed from within VS code). The notebooks are known to work with python 3.12. Install the environment with `pip install -r requirements.txt` and run the notebooks from the repository root. They also run on Python 3.14 with current package versions (e.g. pandas 3.0, matplotlib 3.11); the pinned versions in `requirements.txt` do not install on 3.14, so install the same packages without the version pins there.
 
 - Finally, if you wish to conduct custom analysis of the data, it is recommended to use [Interactive.ipynb](Interactive.ipynb) (best viewed from within VS code).
 
