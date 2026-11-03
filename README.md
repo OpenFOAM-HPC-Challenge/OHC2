@@ -1,12 +1,12 @@
 # 2nd OpenFOAM HPC Challenge (OHC-2)
 
-This repository contains the data, scripts and notebooks that were used to analyze the results of the 2nd OpenFOAM HPC Challenge (OHC-2).
+This repository contains the data, scripts and notebooks that were used to analyze the results of the 2nd OpenFOAM HPC Challenge (OHC-2). The results were presented at the OHC-2 mini-symposium, held July 1-2, 2026 in Guimarães, Portugal as part of the 21st OpenFOAM Workshop.
 
-<!-- TODO(OHC-2): add event date/venue, Zenodo DOI badge, and any other release details once available. -->
+<!-- TODO(OHC-2): add Zenodo DOI badge and any other release details once available. -->
 
 ## OHC-2 Overview
 The challenge was aimed at evaluating the efficiency, scalability, and performance of OpenFOAM on various hardware platforms, with and without software enhancements, using a standardized industrial test case (DrivAer). The challenge included two tracks:
-  - **Hardware Track:** Participants simulated the case using standard (unmodified) OpenFOAM v2412, on any supported hardware.
+  - **Hardware Track:** Participants simulated the case using standard (unmodified) OpenFOAM v2512, on any supported hardware.
   - **Software Track:** Participants could use custom solvers and code optimizations, provided the mesh and physical modeling correspond to the original setup.
 
 A detailed description of the challenge is provided in the [introductory presentation](OHC-2_Introduction.pdf).
